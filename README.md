@@ -28,6 +28,8 @@ Modern portfolio showcase with real-time search. **Add your projects in 30 secon
     tech: ["HTML", "CSS", "JS"],
     liveUrl: "https://your-live-site.com"
 },
+
+
 ## ✅ Requirements
 
 ✅ Live demo (REQUIRED)
