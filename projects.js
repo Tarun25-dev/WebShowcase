@@ -16,7 +16,16 @@ const projects = [
         liveUrl: "https://github.com/Tarun25-dev/Smart-sorting/",
         repoUrl: "https://github.com/Tarun25-dev/Smart-sorting/"
     },
+    {
+        title: "Personal Portfolio", 
+        author: "Sri Hari",
+        description: "Built and deployed a responsive personal portfolio site using HTML, CSS, and JavaScript to showcase my skills, projects, and achievements. Designed clean navigation, project highlights, and contact integration to provide a professional online presence.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        liveUrl: "https://github.com/srihari-3232.github.io/MyPortfolio/",
+        repoUrl: "https://github.com/srihari-3232/MyPortfolio.git"
+    },
 
 ];
+
 
 
