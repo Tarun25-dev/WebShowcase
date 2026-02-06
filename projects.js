@@ -24,8 +24,25 @@ const projects = [
         liveUrl: "https://srihari-3232.github.io/MyPortfolio/",
         repoUrl: "https://github.com/srihari-3232/MyPortfolio.git"
     },
+        {
+        title: "Visualizing Housing Market Trends using Tableau", 
+        author: "Jaya Surya",
+        description: "Developed an interactive Tableau housing market trends dashboard to analyze sale prices and influential property features, using cleaned and processed real estate data to uncover insights.",
+        tech: ["Tableau", "Excel/CSV", "Data visualiztion","EDA"],
+        liveUrl: "https://github.com/Jayasurya-2324/Visualizing-Housing-Market-Trends-An-Analysis-of-Sale-Prices-and-Features-using-Tableau.git",
+        repoUrl: "https://github.com/Jayasurya-2324/Visualizing-Housing-Market-Trends-An-Analysis-of-Sale-Prices-and-Features-using-Tableau.git"
+    },
+        {
+        title: "My-Portfolio", 
+        author: "Jaya Surya",
+        description: "Created a responsive portfolio website using HTML, CSS, and JavaScript to showcase my skills and projects, based on the iPortfolio template.",
+        tech: ["HTML", "CSS", "JavaScript"],
+        liveUrl: "https://jayasurya-2324.github.io/My-Portfolio/",
+        repoUrl: "https://github.com/Jayasurya-2324/My-Portfolio.git"
+    },
 
 ];
+
 
 
 
