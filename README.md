@@ -38,16 +38,16 @@ Modern portfolio showcase with real-time search. **Add your projects in 30 secon
 - **Working project**
 - **No duplicates**
 
-## 🤝 Perfect PR Example
+## 📁 File Structure
 
-Title: Add Todo App by Tarun
-Body: Live demo: https://todo.tarun.netlify.app ✅
-
-## 📁 Files
-
-├── index.html     # Main page
-├── style.css      # Styles
-├── script.js      # Logic
-└── projects.js    # ← ADD HERE!
+```bash
+WebShowcase/
+├── index.html       # Main showcase page
+├── style.css        # Modern gradients + responsive
+├── script.js        # Search + animations logic  
+├── projects.js      # ← ADD YOUR PROJECTS HERE!
+├── favicon.ico      # Browser tab icon
+└── README.md        # Contribution guide
+```
 
 # Fork → Edit projects.js → PR → Featured instantly! 🎉
