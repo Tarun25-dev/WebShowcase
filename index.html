@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Showcase</title>
+    
+    <!-- Favicon Setup - All Formats -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-icon" onclick="window.location.reload()">📁</div>
+                <h1 class="logo" onclick="window.location.reload()">WebShowcase</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contribute">Contribute</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Open Source</span>
+            </div>
+            <h1 class="hero-title">Open WebShowcase</h1>
+            <p class="hero-subtitle">Open Web, Open Opportunities - A Platform Built by Developers to Amplify Developer Voices</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">Explore Projects</a>
+                <a href="#contribute" class="btn-secondary">Add Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="search-filter">
+                <input type="text" id="search" placeholder="Search projects...">
+            </div>
+            <div id="projects-grid" class="projects-grid"></div>
+        </div>
+    </section>
+
+    <!-- Contribute Section -->
+    <section id="contribute" class="contribute">
+        <div class="container">
+            <h2 class="section-title">How to Contribute</h2>
+            <p class="section-subtitle">Adding your project takes 3 simple steps!</p>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Fork Repository</h3>
+                    <p>Click fork on GitHub to create your copy.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Edit projects.js</h3>
+                    <p>Add your project details to the projects array.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Submit PR</h3>
+                    <p>Create pull request. Team will review and merge.</p>
+                </div>
+            </div>
+
+            <div class="guidelines">
+            <h3>Submission Guidelines</h3>
+            <div class="guidelines-list">
+                <div class="guideline-item">
+                    <div class="guideline-icon">✔</div>
+                    <p>Project must be live and accessible via the provided URL</p>
+                </div>
+                <div class="guideline-item">
+                    <div class="guideline-icon">✔</div>
+                    <p>GitHub repository must be public</p>
+                </div>
+                <div class="guideline-item">
+                    <div class="guideline-icon">✔</div>
+                    <p>No duplicate submissions</p>
+                </div>
+                <div class="guideline-item">
+                    <div class="guideline-icon">✔</div>
+                    <p>Appropriate content only (no NSFW)</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Student Portfolio. Built with ❤️ by Developer Community.</p>
+            </div>
+    </footer>
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
