@@ -14,7 +14,7 @@ Modern portfolio showcase with real-time search. **Add your projects in 30 secon
 2. **Edit** `projects.js` 
 3. **Submit** Pull Request
 
-```javascript
+\```javascript
 // Copy this format 👇
 {
     title: "Your Project",
@@ -23,6 +23,8 @@ Modern portfolio showcase with real-time search. **Add your projects in 30 secon
     tech: ["HTML", "CSS", "JS"],
     liveUrl: "https://your-live-site.com"
 },
+\***
+
 ✅ Requirements
 ✅ Live demo (REQUIRED)
 
