@@ -40,8 +40,25 @@ const projects = [
         liveUrl: "https://jayasurya-2324.github.io/My-Portfolio/",
         repoUrl: "https://github.com/Jayasurya-2324/My-Portfolio.git"
     },
+        {
+        title: "OpenAPIs Explorer", 
+        author: "Tharun Kumar",
+        description: "Developed a beginner-friendly web application that serves as a curated explorer for free and publicly available APIs across multiple domains (such as AI, weather, finance, etc.). Users can easily search, filter, and discover APIs based on name, category, authentication type, and access level, helping developers quickly find relevant APIs without manual research.",
+        tech: ["HTML", "CSS", "Tailwind CSS","JavaScript"],
+        liveUrl: "https://tarun25-dev.github.io/OpenAPIs/",
+        repoUrl: "https://github.com/Tarun25-dev/OpenAPIs.git"
+    },
+        {
+        title: "Gallery", 
+        author: "Tharun Kumar",
+        description: "Built a responsive and interactive image gallery web page using HTML, Tailwind CSS, and JavaScript. This project displays a collection of images in a masonry-style layout and enhances user engagement with features like an image lightbox preview, keyboard navigation, and swipe support on mobile devices.",
+        tech: ["HTML", "CSS","Tailwind CSS","JavaScript"],
+        liveUrl: "https://tarun25-dev.github.io/Gallery/",
+        repoUrl: "https://github.com/Tarun25-dev/Gallery.git"
+    },
 
 ];
+
 
 
 
