@@ -59,12 +59,13 @@ const projects = [
         {
         title: "Doctor Appointment Booking", 
         author: "Tharun Kumar",
-        description: "•	Developed a full-stack web application to manage doctor appointments with role-based access for Patients, Doctors, and Admin.",
+        description: "Developed a full-stack web application to manage doctor appointments with role-based access for Patients, Doctors, and Admin.",
         tech: ["React.js","Express.js","Node.js","MongoDB","JWT","Bootstrap"],
         liveUrl: "https://github.com/Tarun25-dev/Doctor-Appointment-Booking-App.git",
         repoUrl: "https://github.com/Tarun25-dev/Doctor-Appointment-Booking-App.git"
     },
 ];
+
 
 
 
